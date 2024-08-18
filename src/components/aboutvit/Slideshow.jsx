@@ -2,13 +2,13 @@
 import React, { useState, useEffect } from 'react';
 
 const images = [
-  '../../../public/images/vit1.jpg',
-  '../../../public/images/vit2.jpg',
-  '../../../public/images/vit3.jpg',
-  '../../../public/images/vit4.jpg',
-  '../../../public/images/vit5.jpg',
-  '../../../public/images/vit6.jpg',
-  '../../../public/images/vit7.jpg',
+  '/images/vit1.jpg',
+  '/images/vit2.jpg',
+  '/images/vit3.jpg',
+  '/images/vit4.jpg',
+  '/images/vit5.jpg',
+  '/images/vit6.jpg',
+  '/images/vit7.jpg',
 ];
 
 const Slideshow = () => {
