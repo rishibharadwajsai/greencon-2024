@@ -57,7 +57,7 @@ function Navbar() {
                 <ul className="text-sm flex flex-col p-4 md:p-2 md:text-center mt-4 border border-gray-100  rounded bg-gray-300 md:flex-row md:space-x-4 md:justify-between rtl:space-x-reverse md:mt-0 md:border-0">
                   <li>
                     <a
-                      href="../pages/AboutVit.jsx"
+                      href="/"
                       className="block py-2 px-3 text-gray-900 bg-gray-400-700 rounded md:bg-transparent md:p-0  hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700"
                       aria-current="page"
                     >
@@ -66,7 +66,7 @@ function Navbar() {
                   </li>
                   <li>
                     <a
-                      href="#"
+                      href="/about-vit"
                       className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0"
                     >
                       About VIT
@@ -74,7 +74,7 @@ function Navbar() {
                   </li>
                   <li>
                     <a
-                      href="#"
+                      href="/registration"
                       className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0"
                     >
                       Registration
@@ -82,7 +82,7 @@ function Navbar() {
                   </li>
                   <li>
                     <a
-                      href="#"
+                      href="/advisory-board"
                       className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0"
                     >
                       Advisory Board
@@ -90,7 +90,7 @@ function Navbar() {
                   </li>
                   <li>
                     <a
-                      href="#"
+                      href="conference-speakers"
                       className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0"
                     >
                       Conference Spearkers
@@ -98,7 +98,7 @@ function Navbar() {
                   </li>
                   <li>
                     <a
-                      href="#"
+                      href="/call-for-papers"
                       className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0"
                     >
                       Call for Papers
@@ -106,7 +106,7 @@ function Navbar() {
                   </li>
                   <li>
                     <a
-                      href="#"
+                      href="/paper-submission"
                       className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0"
                     >
                       Paper Submission
@@ -114,7 +114,7 @@ function Navbar() {
                   </li>
                   <li>
                     <a
-                      href="#"
+                      href="organizing-committee"
                       className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0"
                     >
                       Organizing Committee
@@ -122,7 +122,7 @@ function Navbar() {
                   </li>
                   <li>
                     <a
-                      href="#"
+                      href="/contact-us"
                       className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0"
                     >
                       Contact Us
