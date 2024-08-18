@@ -10,10 +10,10 @@ export function ImgCard({ imgSrc, name }) {
 function MainSection({ title, imgSrc }) {
   return (
     <div className="mt-10 flex flex-col items-center">
-      <h1 className=" text-base md:text-3xl font-bold tracking-tight text-center transition-colors first:mt-0 w-[50%] mx-auto text-[#3c5a96]">
+      <h1 className=" text-base md:text-3xl font-bold text-center transition-colors first:mt-0 w-[50%] mx-auto text-[#3c5a96] uppercase tracking-normal">
         {title}
       </h1>
-      <div className="mt-2 h-0.5 w-[10%] md:w-[8%] bg-gray-600 rounded-md" ></div>
+      <div className="mt-2 h-0.5 w-[10%] md:w-[8%] bg-[#3c5a96] rounded-md" ></div>
       <div className="flex flex-wrap justify-evenly space-x-4">
         {imgSrc.map((imgObj, index) => (
           <ImgCard key={index} imgSrc={imgObj.imgSrc} name={imgObj.name} />
