@@ -45,7 +45,7 @@ const OrganizingCommittee = () => {
       ],
     },
     {
-      title: "sponsorship",
+      title: "Sponsorship",
       imgObj: [
         { imgSrc: "/images/organizing-committee/sathiya.jpg", name: "Dr. Sathiya Narayanan S" },
         { imgSrc: "/images/organizing-committee/srm.jpg", name: "Dr. Soumya Ranjan Mahapatro" },
@@ -71,7 +71,7 @@ const OrganizingCommittee = () => {
     {
       title: "CMT & Publication",
       imgObj: [
-        { imgSrc: "/images/organizing-committee/muthulakshmi.jpg", name: "Dr. Sasipriya P" },
+        { imgSrc: "/images/organizing-committee/sasipriya.jpg", name: "Dr. Sasipriya P" },
         { imgSrc: "/images/organizing-committee/mohana.jpg", name: "Dr. Mohanaprasad" },
         { imgSrc: "/images/organizing-committee/nair.jpg", name: "Dr. Saranya Nair M" },
         { imgSrc: "/images/organizing-committee/pritamb.jpg", name: "Dr. Pritam Bhattacharjee" },
@@ -123,7 +123,7 @@ const OrganizingCommittee = () => {
       ],
     },
     {
-      title: "purchase",
+      title: "Purchase",
       imgObj: [
         { imgSrc: "/images/organizing-committee/arivarasi.jpg", name: "Dr. Arivarasi A" },
         { imgSrc: "/images/organizing-committee/papa.jpg", name: "Dr. Papanasam E" },
