@@ -12,7 +12,7 @@ const contacts = [
     email: 'velmathi.g@vit.ac.in',
     // phone1: '+91 94875 26097',
     // phone2: '+91 99444 03862',
-    image: '../../public/images/velmathi.jpg', 
+    image: '/images/velmathi.jpg', 
   },
   {
     name: 'Dr. N. Subhashini',
@@ -23,7 +23,7 @@ const contacts = [
     email: 'subhashini.n@vit.ac.in ',
     // phone1: '+91 97907 84855',
     // phone2: null,
-    image: '../../public/images/subhashini.jpg'
+    image: '/images/subhashini.jpg'
   },
   {
     name: 'Dr. R G Sangeetha',
@@ -34,7 +34,7 @@ const contacts = [
     email: 'sangeetha.rg@vit.ac.in',
     // phone1: '+91 97907 84855',
     // phone2: null,
-    image: '../../public/images/sangeetha.jpg'
+    image: '/images/sangeetha.jpg'
   },
 ];
 
