@@ -45,14 +45,16 @@ const others = [
 ]
 const PatronsSection = () => {
   return (
-    <section className="bg-white py-12">
+    <section className="bg-white py-12 mt-8">
       <div className="container mx-auto text-center">
-        <h2 className="text-3xl font-semibold text-gray-800">Patrons</h2>
+      <h2 className="mt-10 scroll-m-20 border-b border-[#3c5a96] pb-2 text-3xl font-bold tracking-tight transition-colors first:mt-0 w-[50%] mx-auto text-[#3c5a96]">
+        PATRONS
+      </h2>
         <div className="flex flex-wrap justify-center mt-8">
           <div className="w-72 m-4 border pb-4 border-dotted shadow hover:shadow-lg hover:cursor-pointer">
             <img src="../../../public/images/partons/chancellor.jpg" alt="Patron Name" className="w-64 h-76 mx-auto py-4" />
             <h3 className="mt-4 text-lg font-medium text-gray-700">Dr. </h3>
-            <p className="text-sm text-gray-500">Chancellore</p>
+            <p className="text-sm text-gray-500">Chancellor</p>
           </div>
         </div>
 
