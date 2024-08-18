@@ -10,7 +10,7 @@ const AboutVit = () => {
     <>
     <div className="w-full flex sm:flex-row flex-col mt-8">
         <div className="flex-col w-full sm:w-1/2 justify-center my-auto px-4 mx-auto">
-        <img src="../../public/logos/vitlogo-white.jpg" alt="VIT Logo" className="hidden sm:block mx-auto mb-6 w-64 h-auto" />
+        <img src="/logos/vitlogo-white.jpg" alt="VIT Logo" className="hidden sm:block mx-auto mb-6 w-64 h-auto" />
         <h1 className="scroll-m-20 text-3xl font-extrabold tracking-tight lg:text-4xl text-center px-2 text-[#3c5a96]">
         VELLORE INSTITUTE OF TECHNOLOGY, CHENNAI
       </h1>
