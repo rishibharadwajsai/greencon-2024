@@ -35,24 +35,24 @@ const CountdownTimer = ({ targetDate }) => {
   }, [calculateTimeLeft, targetDate]);
 
   return (
-    <div className="flex flex-col items-center justify-center bg-gray-100 p-4 rounded-lg">
-      <h1 className="text-2xl font-bold mb-4">Countdown Timer</h1>
-      <div className="flex space-x-4 text-lg font-semibold">
-        <div className="flex flex-col items-center">
-          <span className="text-4xl">{timeLeft.days}</span>
-          <span>Days</span>
+    <div className="flex flex-col items-center justify-center bg-white rounded-xl shadow-lg border border-gray-200 sm:w-1/2 mx-auto mt-8 mb-28">
+      <h1 className="w-full text-lg md:text-2xl font-bold mb-16 bg-gray-200 text-[#3c5a96] text-center py-4">GREENCON 2025</h1>
+      <div className="flex space-x-8 text-xl font-semibold mb-8">
+        <div className="flex flex-col items-center bg-gray-100 p-4 rounded-xl">
+          <span className="text-4xl text-[#3c5a96]">{timeLeft.days}</span>
+          <span className="text-gray-500 mt-2 text-sm">Days</span>
         </div>
-        <div className="flex flex-col items-center">
-          <span className="text-4xl">{timeLeft.hours}</span>
-          <span>Hours</span>
+        <div className="flex flex-col items-center bg-gray-100 px-5 py-4 rounded-xl">
+          <span className="text-4xl text-[#3c5a96]">{timeLeft.hours}</span>
+          <span className="text-gray-500 mt-2 text-sm">Hours</span>
         </div>
-        <div className="flex flex-col items-center">
-          <span className="text-4xl">{timeLeft.minutes}</span>
-          <span>Minutes</span>
+        <div className="flex flex-col items-center bg-gray-100 p-4 rounded-xl">
+          <span className="text-4xl text-[#3c5a96]">{timeLeft.minutes}</span>
+          <span className="text-gray-500 mt-2 text-sm">Minutes</span>
         </div>
-        <div className="flex flex-col items-center">
-          <span className="text-4xl">{timeLeft.seconds}</span>
-          <span>Seconds</span>
+        <div className="flex flex-col items-center bg-gray-100 p-4 rounded-xl">
+          <span className="text-4xl text-[#3c5a96]">{timeLeft.seconds}</span>
+          <span className="text-gray-500 mt-2 text-sm">Seconds</span>
         </div>
       </div>
     </div>
