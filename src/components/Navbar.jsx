@@ -67,55 +67,55 @@ function Navbar() {
             >
               <a
                 href="/"
-                className="text-gray-700 hover:text-blue-600 transition-colors duration-300 font-medium"
+                className="text-gray-700 hover:text-[#3c5a96] hover:bg-gray-200 px-1 py-1 transition-colors duration-300 font-medium hover:bg-gray-200 px-1 py-1 "
               >
                 Home
               </a>
               <a
                 href="/about-vit"
-                className="text-gray-700 hover:text-blue-600 transition-colors duration-300 font-medium"
+                className="text-gray-700 hover:text-[#3c5a96] hover:bg-gray-200 px-1 py-1 transition-colors duration-300 font-medium"
               >
                 About VIT
               </a>
               <a
                 href="/registration"
-                className="text-gray-700 hover:text-blue-600 transition-colors duration-300 font-medium"
+                className="text-gray-700 hover:text-[#3c5a96] transition-colors duration-300 font-medium hover:bg-gray-200 px-1 py-1 "
               >
                 Registration
               </a>
               <a
                 href="/advisory-board"
-                className="text-gray-700 hover:text-blue-600 transition-colors duration-300 font-medium"
+                className="text-gray-700 hover:text-[#3c5a96] transition-colors duration-300 font-medium hover:bg-gray-200 px-1 py-1 "
               >
                 Advisory Board
               </a>
               <a
                 href="/conference-speakers"
-                className="text-gray-700 hover:text-blue-600 transition-colors duration-300 font-medium"
+                className="text-gray-700 hover:text-[#3c5a96] transition-colors duration-300 font-medium hover:bg-gray-200 px-1 py-1 "
               >
                 Conference Speakers
               </a>
               <a
                 href="/call-for-papers"
-                className="text-gray-700 hover:text-blue-600 transition-colors duration-300 font-medium"
+                className="text-gray-700 hover:text-[#3c5a96] transition-colors duration-300 font-medium hover:bg-gray-200 px-1 py-1 "
               >
                 Call for Papers
               </a>
               <a
                 href="/paper-submission"
-                className="text-gray-700 hover:text-blue-600 transition-colors duration-300 font-medium"
+                className="text-gray-700 hover:text-[#3c5a96] transition-colors duration-300 font-medium hover:bg-gray-200 px-1 py-1 "
               >
                 Paper Submission
               </a>
               <a
                 href="/organizing-committee"
-                className="text-gray-700 hover:text-blue-600 transition-colors duration-300 font-medium"
+                className="text-gray-700 hover:text-[#3c5a96] transition-colors duration-300 font-medium hover:bg-gray-200 px-1 py-1 "
               >
                 Organizing Committee
               </a>
               <a
                 href="/contact-us"
-                className="text-gray-700 hover:text-blue-600 transition-colors duration-300 font-medium"
+                className="text-gray-700 hover:text-[#3c5a96] transition-colors duration-300 font-medium hover:bg-gray-200 px-1 py-1 "
               >
                 Contact Us
               </a>

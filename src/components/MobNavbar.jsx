@@ -20,17 +20,14 @@ function MobNavbar() {
 
         {/* Title below the images */}
         <div className="order-3 md:order-none mt-4 md:mt-0 text-center">
-          <h1 className="sm:text-2xl font-semibold">
-            VIRTUAL INTERNATIONAL CONFERENCE ON FUTURISTIC COMMUNICATION AND
-            NETWORK TECHNOLOGIES
+        <h1 className="text-lg sm:text-3xl font-bold text-gray-800">
+          Green Revolution in Electronics Engineering and Networks Conference 2025
           </h1>
-          <h1 className="text-xl mt-2 md:mt-0">
-            (VICFCNT-2024) | February 15, 2025
-          </h1>
-          <p className="font-medium mt-2 md:mt-0 text-red-600">
-            Vellore Institute of Technology (VIT, Chennai India) in joint
-            collaboration with Universiti Tunku Abdul Rahman (UTAR, Sungai Long
-            Campus Malaysia)
+          <h2 className="text-md sm:text-xl mt-1 text-gray-600">
+          (GREENCON 2025) | February 15, 2025
+          </h2>
+          <p className="text-sm sm:text-base mt-1 font-light text-gray-600">
+            Vellore Institute of Technology (VIT, Chennai India) organizes GREENCON 2025
           </p>
         </div>
 
