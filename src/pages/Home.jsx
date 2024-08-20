@@ -12,12 +12,12 @@ const Home = () => {
         <div className='md:w-1/4'>
         <Timeline />
         </div>
-        <div className='md:w-1/2'>
+        <div className='mx-auto w-[95%] md:w-1/2'>
         <ConferenceAbout />
         </div>
         <div className='md:w-1/3'>
         <ImportantSection />
-        <RegistrationFeeSection />
+        {/* <RegistrationFeeSection /> */}
         </div>
     </section>
     <CountdownTimer />
