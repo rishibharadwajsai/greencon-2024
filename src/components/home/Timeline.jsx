@@ -26,13 +26,13 @@ const timelineData = [
 
 const Timeline = () => {
   return (
-    <div className="relative max-w-2xl mx-auto mt-10 px-4">
+    <div className="relative max-w-2xl mx-auto mt-10 px-4 mb-12">
       <div className="absolute border-l-2 border-blue-500 h-full left-6 top-0"></div>
       <ul className="space-y-6">
         {timelineData.map((item, index) => (
           <li key={index} className="relative pl-8">
             <div className="absolute top-6 left-0 w-4 h-4 bg-blue-500 rounded-full mt-1.5"></div>
-            <div className="bg-white shadow-lg rounded-lg p-4 border border-gray-200">
+            <div className="bg-white shadow-lg rounded-lg p-4 border border-gray-200 ">
               <h3 className="text-sm font-semibold text-gray-500">
                 {item.date}
                 {item.endDate ? ` - ${item.endDate}` : ""}
