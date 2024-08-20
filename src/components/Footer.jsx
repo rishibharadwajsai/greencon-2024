@@ -61,9 +61,11 @@ function Footer() {
               </ul>
             </div>
           </div>
-          <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
-          <div className="sm:flex sm:items-center sm:justify-between text-sm md:text-base">
-            <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">
+        </div>
+      </footer>
+      <hr className="border-gray-200 sm:mx-auto dark:border-gray-700" />
+      <div className="sm:flex sm:items-center sm:justify-between text-sm md:text-base bg-[#3c5a96] p-8">
+            <span className="text-sm text-gray-100 sm:text-center dark:text-gray-100">
               © 2024{" "}
               <a href="https://chennai.vit.ac.in/" className="hover:underline">
                 VIT Chennai
@@ -71,8 +73,6 @@ function Footer() {
               . All Rights Reserved.
             </span>
           </div>
-        </div>
-      </footer>
     </>
   );
 }
