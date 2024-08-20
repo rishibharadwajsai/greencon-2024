@@ -19,7 +19,7 @@ function Navbar() {
             NETWORK TECHNOLOGIES
           </h1>
           <h1 className="text-center text-xl mt-1 md:mt-0">
-            (VICFCNT-2024) | December 10-11, 2024
+            (VICFCNT-2024) | February 15, 2025
           </h1>
           <p className="text-center font-medium mt-1 md:mt-0 text-red-600">
             Vellore Institute of Technology (VIT, Chennai India) in joint
@@ -53,7 +53,10 @@ function Navbar() {
                   />
                 </svg>
               </button>
-              <div className="hidden w-full md:block md:w-auto" id="navbar-default">
+              <div
+                className="hidden w-full md:block md:w-auto"
+                id="navbar-default"
+              >
                 <ul className="text-sm flex flex-col p-4 md:p-2 md:text-center mt-4 border border-gray-100  rounded bg-gray-300 md:flex-row md:space-x-4 md:justify-between rtl:space-x-reverse md:mt-0 md:border-0">
                   <li>
                     <a
@@ -133,7 +136,11 @@ function Navbar() {
             </div>
           </nav>
         </div>
-        <img src="/logos/Utar.jpg" alt="Utar logo" className="w-52 order-2 mt-2 md:mt-0" />
+        <img
+          src="/logos/Utar.jpg"
+          alt="Utar logo"
+          className="w-52 order-2 mt-2 md:mt-0"
+        />
       </div>
     </>
   );

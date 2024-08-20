@@ -1,6 +1,4 @@
-/* eslint-disable react-hooks/exhaustive-deps */
-/* eslint-disable react/prop-types */
-import React, { useState, useEffect,useCallback } from 'react';
+import React, { useState, useEffect, useCallback } from "react";
 
 const CountdownTimer = ({ targetDate }) => {
   const calculateTimeLeft = useCallback(() => {
@@ -12,14 +10,14 @@ const CountdownTimer = ({ targetDate }) => {
         days: Math.floor(difference / (1000 * 60 * 60 * 24)),
         hours: Math.floor((difference / (1000 * 60 * 60)) % 24),
         minutes: Math.floor((difference / 1000 / 60) % 60),
-        seconds: Math.floor((difference / 1000) % 60)
+        seconds: Math.floor((difference / 1000) % 60),
       };
     } else {
       timeLeft = {
         days: 0,
         hours: 0,
         minutes: 0,
-        seconds: 0
+        seconds: 0,
       };
     }
 
@@ -61,4 +59,8 @@ const CountdownTimer = ({ targetDate }) => {
   );
 };
 
-export default CountdownTimer;
+const App = () => {
+  return <CountdownTimer targetDate="2025-02-15T00:00:00" />;
+};
+
+export default App;

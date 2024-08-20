@@ -15,11 +15,7 @@ function MobNavbar() {
             alt="vit logo"
             className="w-36 h-16 rounded my-auto"
           />
-          <img
-            src="/logos/Utar.jpg"
-            alt="Utar logo"
-            className="w-36 mt-4"
-          />
+          <img src="/logos/Utar.jpg" alt="Utar logo" className="w-36 mt-4" />
         </div>
 
         {/* Title below the images */}
@@ -29,7 +25,7 @@ function MobNavbar() {
             NETWORK TECHNOLOGIES
           </h1>
           <h1 className="text-xl mt-2 md:mt-0">
-            (VICFCNT-2024) | December 10-11, 2024
+            (VICFCNT-2024) | February 15, 2025
           </h1>
           <p className="font-medium mt-2 md:mt-0 text-red-600">
             Vellore Institute of Technology (VIT, Chennai India) in joint
@@ -65,7 +61,10 @@ function MobNavbar() {
                 />
               </svg>
             </button>
-            <div className="hidden w-full md:block md:w-auto" id="MobNavbar-default">
+            <div
+              className="hidden w-full md:block md:w-auto"
+              id="MobNavbar-default"
+            >
               <ul className="text-sm flex flex-col p-4 md:p-2 md:text-center mt-4 border border-gray-100 rounded bg-gray-300 md:flex-row md:space-x-4 md:justify-between rtl:space-x-reverse md:mt-0 md:border-0">
                 <li>
                   <a
