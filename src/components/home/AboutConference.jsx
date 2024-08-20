@@ -2,8 +2,8 @@ import React from 'react';
 
 const ConferenceAbout = () => {
   return (
-    <div className="bg-yellow-50 p-6 max-w-4xl mx-auto my-10 rounded-md shadow-md border-t-4 border-yellow-400">
-      <h2 className="text-[#3c5a96] font-bold text-lg md:text-2xl text-center underline decoration-red-600 mb-6">
+    <div className="bg-orange-50 p-6 max-w-4xl mx-auto my-10 rounded-md shadow-md border-t-4 border-[#3c5a96]">
+      <h2 className="text-[#3c5a96] font-bold text-lg md:text-2xl text-center decoration-red-600 mb-6">
         ABOUT THE CONFERENCE
       </h2>
       <p className="text-justify text-gray-700 text-sm md:text-base leading-relaxed">
