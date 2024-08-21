@@ -3,9 +3,9 @@ import React from 'react';
 const RegistrationFeeSection = () => {
   return (
     <div className="w-full px-10 mx-auto my-12">
-      <table className="table-auto w-full text-left text-sm">
+      <table className="table-auto w-full text-left text-sm border-green-900">
         <thead>
-          <tr className="bg-blue-700 text-white">
+          <tr className="bg-green-500 text-white">
             <th className="px-4 py-2">Registration Fee</th>
             <th className="px-4 py-2">Indian (INR)</th>
             <th className="px-4 py-2">Foreign (USD)</th>
