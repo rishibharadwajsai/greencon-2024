@@ -21,7 +21,7 @@ function Navbar() {
             2025
           </h1>
           <h2 className="text-md sm:text-xl mt-1 text-gray-600">
-            (GREENCON 2025) | February 15, 2025
+            (GREENCON 2025) | MARCH, 2025
           </h2>
           <p className="text-sm sm:text-base mt-1 font-light text-gray-600">
             Vellore Institute of Technology (VIT, Chennai India) organizes
