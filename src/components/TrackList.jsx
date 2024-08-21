@@ -228,7 +228,7 @@ const TrackList = () => {
             {track.trackName}
           </h2>
           <h3 className="text-2xl font-normal text-center ">Track Chairs</h3>
-          <div className="mt-2 h-0.5 w-[50%] bg-[#3c5a96] rounded-md"></div>
+          <div className="mt-2 h-0.5 w-[50%] bg-[#35575a] rounded-md"></div>
           <div className="flex flex-row flex-wrap mt-5 justify-around  items-center w-full border-2 border-black">
             {track.trackChairs.map((chair, i) => (
               <div
@@ -247,7 +247,7 @@ const TrackList = () => {
               </div>
             ))}
           </div>
-          <h3 className="mt-10 w-full text-center text-2xl bg-[#3c5a96] py-2 font-bold text-white">
+          <h3 className="mt-10 w-full text-center text-2xl bg-[#addfca] text-[#2b4a4d] py-2 font-bold">
             Topics
           </h3>
           <ul className="text-start w-full">

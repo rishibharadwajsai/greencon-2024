@@ -14,10 +14,10 @@ const CallForPapers = () => {
         <span className="text-blue-800">Scopus Indexed Publication</span>
       </p> */}
 
-      <h1 className="mt-10 text-3xl font-bold uppercase text-[#3c5a96]">
+      <h1 className="mt-10 text-3xl font-bold uppercase text-[#35575a]">
         Tracks
       </h1>
-      <div className="mt-2 h-0.5 w-[20%] sm:w-[10%] bg-[#3c5a96] rounded-md"></div>
+      <div className="mt-2 h-0.5 w-[20%] sm:w-[10%] bg-[#35575a] rounded-md"></div>
 
       <TrackList />
     </div>
