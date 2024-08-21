@@ -63,9 +63,9 @@ function Footer() {
           </div>
         </div>
       </footer>
-      <hr className="border-gray-200 sm:mx-auto dark:border-gray-700" />
-      <div className="sm:flex sm:items-center sm:justify-between text-sm md:text-base bg-[#3c5a96] p-8">
-            <span className="text-sm text-gray-100 sm:text-center dark:text-gray-100">
+      <hr className="border-[#addfca] sm:mx-auto" />
+      <div className="sm:flex sm:items-center sm:justify-between text-sm md:text-base bg-[#addfca] p-8">
+            <span className="font-semibold text-sm text-[#2b4a4d] sm:text-center dark:text-[#2b4a4d]">
               © 2024{" "}
               <a href="https://chennai.vit.ac.in/" className="hover:underline">
                 VIT Chennai
