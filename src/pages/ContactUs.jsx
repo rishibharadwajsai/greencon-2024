@@ -10,8 +10,6 @@ const contacts = [
     department: 'School of Electronics Engineering (SENSE), Vellore Institute of Technology',
     location: 'Chennai, Tamil Nadu – 600127',
     email: 'velmathi.g@vit.ac.in',
-    // phone1: '+91 94875 26097',
-    // phone2: '+91 99444 03862',
     image: '/images/velmathi.jpg', 
   },
   {
@@ -21,8 +19,6 @@ const contacts = [
     department: 'School of Electronics Engineering (SENSE), Vellore Institute of Technology',
     location: 'Chennai, Tamil Nadu – 600127',
     email: 'subhashini.n@vit.ac.in ',
-    // phone1: '+91 97907 84855',
-    // phone2: null,
     image: '/images/subhashini.jpg'
   },
   {
@@ -32,14 +28,12 @@ const contacts = [
     department: 'School of Electronics Engineering (SENSE), Vellore Institute of Technology',
     location: 'Chennai, Tamil Nadu – 600127',
     email: 'sangeetha.rg@vit.ac.in',
-    // phone1: '+91 97907 84855',
-    // phone2: null,
     image: '/images/sangeetha.jpg'
   },
 ];
 
 const ContactCard = ({ contact }) => (
-  <div className="bg-white pb-8 rounded-lg shadow-md text-center hover:cursor-pointer hover:shadow-lg">
+  <div className="bg-white pb-8 rounded-lg shadow-md text-center hover:cursor-pointer hover:shadow-lg w-96 mx-auto">
     <img src={contact.image} alt={contact.name} className="w-52 h-60 mx-auto rounded-full mb-4 shadow" />
     <h3 className="text-xl font-bold mb-2">{contact.name}</h3>
     <p className="text-gray-700 mb-2">{contact.title}</p>
@@ -49,38 +43,34 @@ const ContactCard = ({ contact }) => (
     <p className="text-gray-700 mb-2">
       <strong>Email:</strong> <a href={`mailto:${contact.email}`} className="text-blue-500">{contact.email}</a>
     </p>
-    {/* <p className="text-gray-700 mb-4">
-      <strong>Phone:</strong> {contact.phone1} {contact.phone2 && ` / ${contact.phone2}`}
-    </p> */}
     <a href={`mailto:${contact.email}`} target="_blank" rel="noopener noreferrer">
-      <button className="bg-[#3c5a96] text-white px-6 py-2 rounded hover:bg-blue-600 transition mt-8">
+      <button className="transition mt-8 bg-[#62b895] text-white text-center px-6 py-2 w-28 font-bold rounded-md hover:bg-[#49886e]">
         Contact
       </button>
     </a>
   </div>
-  
 );
 
 const ContactUsSection = () => (
-  <>
-  {/* <div className="flex flex-wrap justify-center mt-8">
-<div className="w-72 m-4 border pb-4 border-dotted shadow hover:shadow-lg hover:cursor-pointer">
-  <img src="../../../public/images/partons/chancellor.jpg" alt="Patron Name" className="w-64 h-76 mx-auto py-4" />
-  <h3 className="mt-4 text-lg font-medium text-gray-700">Dr. </h3>
-  <p className="text-sm text-gray-500">Chancellor</p>
-</div>
-</div> */}
-  <div className="max-w-6xl mx-auto py-12 px-8">
-  <h2 className="mt-10 scroll-m-20 border-b border-[#3c5a96] pb-2 text-3xl font-bold tracking-tight transition-colors first:mt-0 w-[50%] mx-auto text-[#3c5a96] text-center mb-8">
-        ORGAINIZING COMMITTEE
+  <div className="w-full mx-auto py-12 px-8 bg-[#f1f7f6] mb-8">
+    <div className="max-w-6xl mx-auto">
+      <h2 className="mt-10 scroll-m-20 border-b border-[#35575a] pb-2 text-3xl font-bold tracking-tight transition-colors first:mt-0 w-[50%] mx-auto text-[#35575a] text-center mb-8">
+        ORGANIZING COMMITTEE
       </h2>
-    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 pt-8">
-      {contacts.map((contact, index) => (
-        <ContactCard key={index} contact={contact} />
-      ))}
+      <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-1 gap-8 pt-8">
+        <div className="flex justify-center">
+          <ContactCard contact={contacts[1]} /> {/* General Chair */}
+        </div>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
+          <ContactCard contact={contacts[0]} /> {/* Program Chair 1 */}
+          <ContactCard contact={contacts[2]} /> {/* Program Chair 2 */}
+        </div>
+      </div>
     </div>
   </div>
-  </>
 );
 
 export default ContactUsSection;
+
+
+// transition mt-8 bg-[#62b895] text-white text-center px-6 py-2 w-28 font-bold rounded-md hover:bg-[#49886e]">
