@@ -27,10 +27,10 @@ const VITSection = () => {
   return (
     <section className="py-8 mt-16">
       <div className="container mx-auto text-center">
-        <h2 className="mt-10 scroll-m-20 border-b border-[#3c5a96] pb-2 text-3xl font-bold tracking-tight transition-colors first:mt-0 w-[50%] mx-auto text-[#3c5a96]">
+        <h2 className="mt-10 scroll-m-20 border-b border-[#2b4a4d] pb-2 text-3xl font-bold tracking-tight transition-colors first:mt-0 w-[50%] mx-auto text-[#2b4a4d]">
           ABOUT US
         </h2>
-        <p className="mt-8 text-lg sm:text-xl text-gray-600 font-bold px-[7%] sm:px-[15%] text-center sm:text-start">
+        <p className="mt-8 text-lg sm:text-xl text-gray-600 font-semibold px-[7%] sm:px-[15%] text-center sm:text-start">
           VIT, for the past 35 years, has made a mark in the field of higher
           education in India imparting quality education in a multi-cultural
           ambience, intertwined with extensive application-oriented research.

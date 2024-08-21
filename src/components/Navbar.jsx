@@ -1,3 +1,4 @@
+
 import { useEffect } from "react";
 import { initFlowbite } from "flowbite";
 
@@ -28,13 +29,13 @@ function Navbar() {
           </p>
         </div>
         <img
-          src="/logos/Utar.jpg"
-          alt="UTAR logo"
-          className="w-40 h-20 md:order-3 order-3 mt-2 md:mt-0"
+          src="../../public/images/greencon.png"
+          alt="Greencon logo"
+          className="w-44 h-28 md:order-3 order-3 mt-2 md:mt-0"
         />
       </div>
 
-      <nav className="bg-white shadow-md">
+      <nav className="bg-[#addfca] shadow-xl shadow-gray-950 rounded-xl">
         <div className="max-w-screen-xl mx-auto px-4 md:px-8">
           <div className="flex justify-between items-center py-3">
             <div className="md:hidden">

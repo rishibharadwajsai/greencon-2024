@@ -8,16 +8,16 @@ import CountdownTimer from '../components/home/CountdownTimer'
 const Home = () => {
   return (
     <>
-    <section className='flex flex-col sm:flex-row justify-around mx-auto'>
+    <section className='flex flex-col sm:flex-row justify-around mx-auto bg-[#dff2ea]'>
         <div className='md:w-1/4'>
         <Timeline />
         </div>
-        <div className='mx-auto w-[95%] md:w-1/2'>
+        <div className='mx-auto w-[95%] md:w-1/2 ml-2'>
         <ConferenceAbout />
         </div>
         <div className='md:w-1/3'>
         <ImportantSection />
-        {/* <RegistrationFeeSection /> */}
+        <RegistrationFeeSection />
         </div>
     </section>
     <CountdownTimer />

@@ -36,7 +36,7 @@ const CountdownTimer = ({ targetDate }) => {
 
   return (
     <div className="flex flex-col items-center justify-center bg-white rounded-xl shadow-lg border border-gray-200 w-11/12 sm:w-1/2 mx-auto mt-8 mb-28">
-      <h1 className="w-full text-lg md:text-2xl font-bold mb-16 bg-gray-200 text-[#3c5a96] text-center py-4">GREENCON 2025</h1>
+      <h1 className="w-full text-lg md:text-2xl font-bold mb-16 bg-[#62b895] text-[#2b4a4d] text-center py-4">GREENCON 2025</h1>
       <div className="flex space-x-4 sm:space-x-8 text-xl font-semibold mb-8">
         <div className="flex flex-col items-center bg-gray-100 p-4 rounded-xl">
           <span className="text-4xl text-[#3c5a96]">{timeLeft.days}</span>

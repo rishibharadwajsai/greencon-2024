@@ -15,9 +15,9 @@ const ImportantSection = () => {
   }, []);
 
   return (
-    <div className="w-full px-8 mx-auto mt-10">
-      <div className="bg-[#3c5a96] text-white p-2 rounded-t-lg text-center">
-        <h2 className="text-lg font-bold">Important</h2>
+    <div className="w-full px-8 mx-auto mt-10 ">
+      <div className="bg-[#addfca] text-[#2b4a4d] p-2 rounded-t-lg text-center border-green-500">
+        <h2 className="text-lg font-bold text-[#2b4a4d]">IMPORTANT</h2>
       </div>
       <div
         className="bg-white text-black p-4 rounded-b-lg overflow-hidden h-80 relative border dotted"

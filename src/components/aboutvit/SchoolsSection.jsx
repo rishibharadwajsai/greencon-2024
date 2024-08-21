@@ -50,10 +50,10 @@ const SchoolsSection = () => {
 
   return (
     <div className="max-w-6xl mx-auto py-8 px-4 mt-16">
-      <h2 className="mt-10 scroll-m-20 border-b border-[#3c5a96] pb-2 text-3xl font-bold tracking-tight transition-colors first:mt-0 w-[50%] mx-auto text-[#3c5a96] mb-16 text-center">
+      <h2 className="mt-10 scroll-m-20 border-b border-[#2b4a4d] pb-2 text-3xl font-bold tracking-tight transition-colors first:mt-0 w-[50%] mx-auto text-[#2b4a4d] mb-16 text-center">
         SCHOOLS AT VIT CHENNAI
       </h2>
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-8 text-[#2b4a4d] mb-16">
         {schools.map((school, index) => (
           <div key={index}>
             <h3 className="text-xl font-bold mb-2">{school.name}</h3>
