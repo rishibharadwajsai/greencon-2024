@@ -45,9 +45,9 @@ const others = [
 ];
 const PatronsSection = () => {
   return (
-    <section className="bg-white py-12 mt-8">
+    <section className="bg-[#edf2f1] py-12 mt-8">
       <div className="container mx-auto text-center">
-        <h2 className="mt-10 scroll-m-20 border-b border-[#3c5a96] pb-2 text-3xl font-bold tracking-tight transition-colors first:mt-0 w-[50%] mx-auto text-[#3c5a96]">
+        <h2 className="mt-10 scroll-m-20 border-b border-[#2b4a4d] pb-2 text-3xl font-bold tracking-tight transition-colors first:mt-0 w-[50%] mx-auto text-[#2b4a4d]">
           PATRONS
         </h2>
         <div className="flex flex-wrap justify-center mt-8">
