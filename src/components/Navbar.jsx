@@ -93,7 +93,7 @@ function Navbar() {
                 className="text-gray-700 hover:text-[#3c5a96] transition-colors duration-300 font-medium hover:bg-gray-200 px-1 py-1 "
               >
                 Conference Speakers
-              </button>
+              </a>
               <a
                 href="/call-for-papers"
                 className="text-gray-700 hover:text-[#3c5a96] transition-colors duration-300 font-medium hover:bg-green-200 px-1 py-1 "
@@ -105,7 +105,7 @@ function Navbar() {
                 className="text-gray-700 hover:text-[#3c5a96] transition-colors duration-300 font-medium hover:bg-gray-200 px-1 py-1 "
               >
                 Paper Submission
-              </button>
+            </a>
               <a
                 href="/organizing-committee"
                 className="text-gray-700 hover:text-[#3c5a96] transition-colors duration-300 font-medium hover:bg-green-200 px-1 py-1 "
