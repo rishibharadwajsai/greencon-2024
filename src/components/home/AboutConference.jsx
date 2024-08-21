@@ -2,8 +2,8 @@ import React from 'react';
 
 const ConferenceAbout = () => {
   return (
-    <div className="bg-orange-50 p-6 max-w-4xl mx-auto my-10 rounded-md shadow-md border-t-4 border-[#3c5a96]">
-      <h2 className="text-[#3c5a96] font-bold text-lg md:text-2xl text-center decoration-red-600 mb-6">
+    <div className="bg-[#edf7f3] p-6 max-w-4xl mx-auto my-10 rounded-md shadow-xl rounded-xl border-t-4 border-green-500 border-r">
+      <h2 className="text-[#35575a] font-bold text-lg md:text-2xl text-center decoration-red-600 mb-6">
         ABOUT THE CONFERENCE
       </h2>
       <p className="text-justify text-gray-700 text-sm md:text-base leading-relaxed">
@@ -12,22 +12,23 @@ const ConferenceAbout = () => {
       <p className="mt-4 text-justify text-gray-700 text-sm md:text-base leading-relaxed">
         This would enrich the knowledge of the intellectuals who are part of this conference and would lead to further exploration and innovative research in the various domains of the conference. This conference would also help the budding engineers and experts working in the same areas of research to network. The world is centred on the various communication technologies and hence the main aim of this conference is to bring leading academic scientists, researchers and research scholars to exchange and share their experiences and research findings on all aspects in the emerging trends and technologies in the field of Optical Communication Networks and Devices, Acoustic, Speech, Video and Signal Processing, Wireless Communication Networks and Systems Antennas, Microwave and RF for Emerging Technologies, Internet of Things/ Internet of Everything/ Internet of Nano things, MEMS/NEMS for Future Networks, Wearable Technologies, Architecture, Applications and Security of Cyber–Physical Systems and Futuristic Technologies. The experts in these domains around the globe would be invited for delivering keynote talks and invited lectures. Research papers presented in this forum would be published in peer-reviewed scopus indexed publications.
       </p>
-      <div className="w-full flex flex-col md:flex-row justify-center mt-6 space-y-3 md:space-y-0 md:space-x-4">
+      <div className="w-full flex flex-col md:flex-row justify-center mt-8 space-y-3 md:space-y-0 md:space-x-4">
         <a
           href="https://your-register-link.com"
-          className="bg-[#3c5a96] text-white text-center px-6 py-2 w-48 rounded-md hover:bg-[#2e4778] transition-colors"
+          className="bg-[#62b895] text-white text-center px-6 py-2 w-48 font-semibold rounded-md hover:bg-[#49886e] transition-colors"
         >
           Register
         </a>
         <a
           href="https://your-call-for-papers-link.com"
-          className="bg-[#3c5a96] text-white text-center px-6 py-2 w-48 rounded-md hover:bg-[#2e4778] transition-colors"
+          className="bg-[#62b895] text-white text-center px-6 py-2 w-48 rounded-md hover:bg-[#49886e] font-semibold transition-colors"
         >
           Call for Papers
         </a>
         <a
           href="https://your-paper-submission-link.com"
-          className="bg-[#3c5a96] text-white text-center px-6 py-2 w-48 rounded-md hover:bg-[#2e4778] transition-colors"
+          className="bg-[#62b895] text-white text-center px-6 py-2 w-48 rounded-md hover:bg-[#49886e]
+            transition-colors font-semibold"
         >
           Paper Submission
         </a>
