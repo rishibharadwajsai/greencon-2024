@@ -20,14 +20,14 @@ const vp = [
 
 const vc = [
   {
-    name: "Dr. Rambabu Kodali",
-    title: "Vice Chancellor, VIT",
-    image: "/images/partons/vc.jpg",
-  },
-  {
     name: "Dr. V. S. Kanchana Bhaaskaran",
     title: "Vice Chancellor, VIT",
     image: "/images/partons/provc.jpg",
+  },
+  {
+    name: "Dr. Thyagarajan T",
+    title: "Pro-Vice Chancellor, VIT",
+    image: "/images/Pro-VC.jpg",
   },
 ];
 
@@ -107,7 +107,7 @@ const PatronsSection = () => {
           {vc.map((person, index) => (
             <div
               key={index}
-              className="w-72 m-4 border pb-4 border-dotted shadow hover:shadow-lg hover:cursor-pointer"
+              className="w-72 m-4 border flex flex-col justify-end pb-4 border-dotted shadow hover:shadow-lg hover:cursor-pointer"
             >
               <img
                 src={person.image}
