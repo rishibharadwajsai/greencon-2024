@@ -8,11 +8,11 @@ function Navbar() {
 
   return (
     <>
-      <div className="flex flex-col md:flex-row items-center p-4 shadow-lg">
+      <div className="flex flex-col md:flex-row items-center p-4 shadow-xl">
         <img
           src="/logos/vitlogo-blue.jpg"
           alt="VIT logo"
-          className="w-40 h-20 rounded md:order-1 order-2 mt-2 md:mt-0"
+          className="w-40 h-16 rounded md:order-1 order-2 mt-2 md:mt-0"
         />
         <div className="md:flex-1 text-center md:order-2 order-1">
           <h1 className="text-lg sm:text-3xl font-bold text-gray-800">
@@ -26,13 +26,13 @@ function Navbar() {
           </p>
         </div>
         <img
-          src="/logos/Utar.jpg"
-          alt="UTAR logo"
-          className="w-40 h-20 md:order-3 order-3 mt-2 md:mt-0"
+          src="../../public/images/greencon.png"
+          alt="Greencon logo"
+          className="w-44 h-28 md:order-3 order-3 mt-2 md:mt-0"
         />
       </div>
 
-      <nav className="bg-white shadow-md">
+      <nav className="bg-[#addfca] shadow-xl shadow-gray-950 rounded-xl">
         <div className="max-w-screen-xl mx-auto px-4 md:px-8">
           <div className="flex justify-between items-center py-3">
             <div className="md:hidden">
@@ -67,55 +67,55 @@ function Navbar() {
             >
               <a
                 href="/"
-                className="text-gray-700 hover:text-[#3c5a96] hover:bg-gray-200 px-1 py-1 transition-colors duration-300 font-medium hover:bg-gray-200 px-1 py-1 "
+                className="text-gray-700 hover:text-[#3c5a96] hover:bg-green-200 px-1 py-1 transition-colors duration-300 font-medium px-1 py-1 "
               >
                 Home
               </a>
               <a
                 href="/about-vit"
-                className="text-gray-700 hover:text-[#3c5a96] hover:bg-gray-200 px-1 py-1 transition-colors duration-300 font-medium"
+                className="text-gray-700 hover:text-[#3c5a96] hover:bg-green-200 px-1 py-1 transition-colors duration-300 font-medium"
               >
                 About VIT
               </a>
               <a
                 href="/registration"
-                className="text-gray-700 hover:text-[#3c5a96] transition-colors duration-300 font-medium hover:bg-gray-200 px-1 py-1 "
+                className="text-gray-700 hover:text-[#3c5a96] transition-colors duration-300 font-medium hover:bg-green-200 px-1 py-1 "
               >
                 Registration
               </a>
               <a
                 href="/advisory-board"
-                className="text-gray-700 hover:text-[#3c5a96] transition-colors duration-300 font-medium hover:bg-gray-200 px-1 py-1 "
+                className="text-gray-700 hover:text-[#3c5a96] transition-colors duration-300 font-medium hover:bg-green-200 px-1 py-1 "
               >
                 Advisory Board
               </a>
               <a
                 href="/conference-speakers"
-                className="text-gray-700 hover:text-[#3c5a96] transition-colors duration-300 font-medium hover:bg-gray-200 px-1 py-1 "
+                className="text-gray-700 hover:text-[#3c5a96] transition-colors duration-300 font-medium hover:bg-green-200 px-1 py-1 "
               >
                 Conference Speakers
               </a>
               <a
                 href="/call-for-papers"
-                className="text-gray-700 hover:text-[#3c5a96] transition-colors duration-300 font-medium hover:bg-gray-200 px-1 py-1 "
+                className="text-gray-700 hover:text-[#3c5a96] transition-colors duration-300 font-medium hover:bg-green-200 px-1 py-1 "
               >
                 Call for Papers
               </a>
               <a
                 href="/paper-submission"
-                className="text-gray-700 hover:text-[#3c5a96] transition-colors duration-300 font-medium hover:bg-gray-200 px-1 py-1 "
+                className="text-gray-700 hover:text-[#3c5a96] transition-colors duration-300 font-medium hover:bg-green-200 px-1 py-1 "
               >
                 Paper Submission
               </a>
               <a
                 href="/organizing-committee"
-                className="text-gray-700 hover:text-[#3c5a96] transition-colors duration-300 font-medium hover:bg-gray-200 px-1 py-1 "
+                className="text-gray-700 hover:text-[#3c5a96] transition-colors duration-300 font-medium hover:bg-green-200 px-1 py-1 "
               >
                 Organizing Committee
               </a>
               <a
                 href="/contact-us"
-                className="text-gray-700 hover:text-[#3c5a96] transition-colors duration-300 font-medium hover:bg-gray-200 px-1 py-1 "
+                className="text-gray-700 hover:text-[#3c5a96] transition-colors duration-300 font-medium hover:bg-green-200 px-1 py-1 "
               >
                 Contact Us
               </a>
