@@ -29,7 +29,7 @@ function Navbar() {
           </p>
         </div>
         <img
-          src="../../public/images/greencon.png"
+          src="/images/greencon.png"
           alt="Greencon logo"
           className="w-44 h-28 md:order-3 order-3 mt-2 md:mt-0"
         />

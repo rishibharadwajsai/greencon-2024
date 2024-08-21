@@ -265,7 +265,7 @@ const OrganizingCommittee = () => {
 
   return (
     <div className="bg-gray-50 py-10">
-    <h2 className="mb-8 border-b-4 border-[#3c5a96] pb-2 text-base md:text-3xl font-bold text-[#3c5a96] text-center mx-auto">
+    <h2 className="mb-8 border-b-2 border-[#35575a] w-[50%] pb-2 text-base md:text-3xl font-bold text-[#35575a] text-center mx-auto">
       ORGANIZING COMMITTEE
     </h2>
     {OCSec.map((obj, index) => (
