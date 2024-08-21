@@ -264,14 +264,15 @@ const OrganizingCommittee = () => {
   ];
 
   return (
-    <div>
-      <h2 className="mt-10 scroll-m-20 border-b border-[#3c5a96] pb-2 text-base md:text-3xl font-bold tracking-normal transition-colors first:mt-0 w-[70%] sm:w-[50%] mx-auto text-[#3c5a96] text-center ">
-        ORGANIZING COMMITTEE
-      </h2>
-      {OCSec.map((obj, index) => (
-        <MainSection key={index} title={obj.title} imgSrc={obj.imgObj} />
-      ))}
-    </div>
+    <div className="bg-gray-50 py-10">
+    <h2 className="mb-8 border-b-4 border-[#3c5a96] pb-2 text-base md:text-3xl font-bold text-[#3c5a96] text-center mx-auto">
+      ORGANIZING COMMITTEE
+    </h2>
+    {OCSec.map((obj, index) => (
+      <MainSection key={index} title={obj.title} imgSrc={obj.imgObj} />
+    ))}
+  </div>
+
   );
 };
 
