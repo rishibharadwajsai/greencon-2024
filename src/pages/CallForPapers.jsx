@@ -4,7 +4,7 @@ import TrackList from "../components/TrackList";
 const CallForPapers = () => {
   return (
     <div className="max-w-screen-xl flex flex-wrap flex-col items-center justify-center mx-auto">
-      <p className="text-xl text-center font-semibold">
+      {/* <p className="text-xl text-center font-semibold">
         <span className="text-blue-800">VICFCNT</span> invites you to submit
         your research work via the Online Submission Portal. Make sure the
         submitted paper should not have been submitted or published previously
@@ -12,7 +12,7 @@ const CallForPapers = () => {
         to choose from. All selected and presented papers in the conference will
         be published in{" "}
         <span className="text-blue-800">Scopus Indexed Publication</span>
-      </p>
+      </p> */}
 
       <h1 className="mt-10 text-3xl font-bold uppercase text-[#3c5a96]">
         Tracks
